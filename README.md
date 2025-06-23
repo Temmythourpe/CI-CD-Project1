@@ -39,8 +39,7 @@ It covers the end-to-end setup of an automated pipeline for building and deployi
 ---
 
 ![alt text](<Screenshot 2025-06-23 153651.png>)
-
----
+![alt text](<Screenshot 2025-06-23 163429.png>)
 
 ## ✅ Outcomes
 
