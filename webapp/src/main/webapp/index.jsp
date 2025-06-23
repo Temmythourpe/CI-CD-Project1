@@ -61,7 +61,7 @@
 <body>
     <div class="container">
         <h2>Job Application Registration</h2>
-        <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <label for="fullName">Full Name:</label>
             <input type="text" name="fullName" required>
 
@@ -76,6 +76,9 @@
 
             <label for="summary">Resume Summary:</label>
             <textarea name="summary" rows="5"></textarea>
+
+            <label for="cv">Upload CV (PDF/DOC/DOCX):</label>
+            <input type="file" name="cv" accept=".pdf,.doc,.docx" required>
 
             <input type="submit" value="Submit Application">
         </form>
@@ -95,6 +98,7 @@
             <p><strong>Phone:</strong> <%= phone %></p>
             <p><strong>Position:</strong> <%= position %></p>
             <p><strong>Summary:</strong> <%= summary %></p>
+            <p><strong>CV Uploaded:</strong> (CV uploaded successfully — handling not yet implemented)</p>
         </div>
         <%
             }
